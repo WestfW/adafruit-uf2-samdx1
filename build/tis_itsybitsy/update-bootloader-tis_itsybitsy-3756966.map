@@ -1,0 +1,586 @@
+Archive member included to satisfy reference by file (symbol)
+
+/Applications/Arduino-1.8.13.app/Contents/Java/portable/packages/adafruit/tools/arm-none-eabi-gcc/9-2019q4/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+                              build/tis_itsybitsy/selfmain.o (memcpy)
+
+Allocating common symbols
+Common symbol       size              file
+
+b_sharp_received    0x1               build/tis_itsybitsy/usart_sam_ba.o
+timerHigh           0x4               build/tis_itsybitsy/utils.o
+idx_rx_write        0x1               build/tis_itsybitsy/usart_sam_ba.o
+size_of_data        0x2               build/tis_itsybitsy/usart_sam_ba.o
+bootloader_page_buf
+                    0x100             build/tis_itsybitsy/selfmain.o
+resetHorizon        0x4               build/tis_itsybitsy/utils.o
+idx_tx_read         0x1               build/tis_itsybitsy/usart_sam_ba.o
+buffer_tx_usart     0x80              build/tis_itsybitsy/usart_sam_ba.o
+error_timeout       0x1               build/tis_itsybitsy/usart_sam_ba.o
+mode_of_transfer    0x1               build/tis_itsybitsy/usart_sam_ba.o
+idx_rx_read         0x1               build/tis_itsybitsy/usart_sam_ba.o
+idx_tx_write        0x1               build/tis_itsybitsy/usart_sam_ba.o
+buffer_rx_usart     0x80              build/tis_itsybitsy/usart_sam_ba.o
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 build/tis_itsybitsy/flash_samd21.o
+ .data          0x0000000000000000        0x0 build/tis_itsybitsy/flash_samd21.o
+ .bss           0x0000000000000000        0x0 build/tis_itsybitsy/flash_samd21.o
+ .text.flash_erase_to_end
+                0x0000000000000000       0x1a build/tis_itsybitsy/flash_samd21.o
+ .text.copy_words
+                0x0000000000000000       0x14 build/tis_itsybitsy/flash_samd21.o
+ .text.flash_write
+                0x0000000000000000       0x90 build/tis_itsybitsy/flash_samd21.o
+ .text          0x0000000000000000        0x0 build/tis_itsybitsy/init_samd21.o
+ .data          0x0000000000000000        0x0 build/tis_itsybitsy/init_samd21.o
+ .bss           0x0000000000000000        0x0 build/tis_itsybitsy/init_samd21.o
+ .data.g_interrupt_enabled
+                0x0000000000000000        0x1 build/tis_itsybitsy/init_samd21.o
+ .text          0x0000000000000000        0x0 build/tis_itsybitsy/startup_samd21.o
+ .data          0x0000000000000000        0x0 build/tis_itsybitsy/startup_samd21.o
+ .bss           0x0000000000000000        0x0 build/tis_itsybitsy/startup_samd21.o
+ .text          0x0000000000000000        0x0 build/tis_itsybitsy/usart_sam_ba.o
+ .data          0x0000000000000000        0x0 build/tis_itsybitsy/usart_sam_ba.o
+ .bss           0x0000000000000000        0x0 build/tis_itsybitsy/usart_sam_ba.o
+ .text.usart_open
+                0x0000000000000000       0xbc build/tis_itsybitsy/usart_sam_ba.o
+ .text.usart_close
+                0x0000000000000000       0x10 build/tis_itsybitsy/usart_sam_ba.o
+ .text.usart_putc
+                0x0000000000000000       0x14 build/tis_itsybitsy/usart_sam_ba.o
+ .text.usart_getc
+                0x0000000000000000       0x10 build/tis_itsybitsy/usart_sam_ba.o
+ .text.usart_is_rx_ready
+                0x0000000000000000       0x10 build/tis_itsybitsy/usart_sam_ba.o
+ .text.usart_sharp_received
+                0x0000000000000000       0x1a build/tis_itsybitsy/usart_sam_ba.o
+ .text.usart_readc
+                0x0000000000000000       0x20 build/tis_itsybitsy/usart_sam_ba.o
+ .text.usart_putdata
+                0x0000000000000000       0x1a build/tis_itsybitsy/usart_sam_ba.o
+ .text.usart_getdata
+                0x0000000000000000        0xe build/tis_itsybitsy/usart_sam_ba.o
+ .text.getbytes
+                0x0000000000000000       0x60 build/tis_itsybitsy/usart_sam_ba.o
+ .text.getPacket
+                0x0000000000000000       0x70 build/tis_itsybitsy/usart_sam_ba.o
+ .text.usart_putdata_xmd
+                0x0000000000000000      0x10c build/tis_itsybitsy/usart_sam_ba.o
+ .text.usart_getdata_xmd
+                0x0000000000000000       0xb8 build/tis_itsybitsy/usart_sam_ba.o
+ COMMON         0x0000000000000000      0x109 build/tis_itsybitsy/usart_sam_ba.o
+ .text          0x0000000000000000        0x0 build/tis_itsybitsy/screen.o
+ .data          0x0000000000000000        0x0 build/tis_itsybitsy/screen.o
+ .bss           0x0000000000000000        0x0 build/tis_itsybitsy/screen.o
+ .debug_info    0x0000000000000000      0x993 build/tis_itsybitsy/screen.o
+ .debug_abbrev  0x0000000000000000      0x1bd build/tis_itsybitsy/screen.o
+ .debug_aranges
+                0x0000000000000000       0x18 build/tis_itsybitsy/screen.o
+ .debug_line    0x0000000000000000      0x245 build/tis_itsybitsy/screen.o
+ .debug_str     0x0000000000000000      0x61f build/tis_itsybitsy/screen.o
+ .comment       0x0000000000000000       0x7a build/tis_itsybitsy/screen.o
+ .ARM.attributes
+                0x0000000000000000       0x32 build/tis_itsybitsy/screen.o
+ .text          0x0000000000000000        0x0 build/tis_itsybitsy/images.o
+ .data          0x0000000000000000        0x0 build/tis_itsybitsy/images.o
+ .bss           0x0000000000000000        0x0 build/tis_itsybitsy/images.o
+ .rodata.arrowLogo
+                0x0000000000000000       0x39 build/tis_itsybitsy/images.o
+ .rodata.fileLogo
+                0x0000000000000000       0x4a build/tis_itsybitsy/images.o
+ .rodata.font8  0x0000000000000000      0x240 build/tis_itsybitsy/images.o
+ .rodata.pendriveLogo
+                0x0000000000000000       0x3e build/tis_itsybitsy/images.o
+ .debug_info    0x0000000000000000      0x11e build/tis_itsybitsy/images.o
+ .debug_abbrev  0x0000000000000000       0x6a build/tis_itsybitsy/images.o
+ .debug_aranges
+                0x0000000000000000       0x18 build/tis_itsybitsy/images.o
+ .debug_line    0x0000000000000000      0x15c build/tis_itsybitsy/images.o
+ .debug_str     0x0000000000000000      0x1ea build/tis_itsybitsy/images.o
+ .comment       0x0000000000000000       0x7a build/tis_itsybitsy/images.o
+ .ARM.attributes
+                0x0000000000000000       0x32 build/tis_itsybitsy/images.o
+ .text          0x0000000000000000        0x0 build/tis_itsybitsy/utils.o
+ .data          0x0000000000000000        0x0 build/tis_itsybitsy/utils.o
+ .bss           0x0000000000000000        0x0 build/tis_itsybitsy/utils.o
+ .text.delay    0x0000000000000000       0x28 build/tis_itsybitsy/utils.o
+ .text.writeNum
+                0x0000000000000000       0x38 build/tis_itsybitsy/utils.o
+ .text.timerTick
+                0x0000000000000000       0x40 build/tis_itsybitsy/utils.o
+ .text.led_signal
+                0x0000000000000000       0x2c build/tis_itsybitsy/utils.o
+ .text.RGBLED_set_color
+                0x0000000000000000        0x2 build/tis_itsybitsy/utils.o
+ .bss.timerLow  0x0000000000000000        0x4 build/tis_itsybitsy/utils.o
+ COMMON         0x0000000000000000        0x8 build/tis_itsybitsy/utils.o
+ .text          0x0000000000000000        0x0 build/tis_itsybitsy/selfmain.o
+ .data          0x0000000000000000        0x0 build/tis_itsybitsy/selfmain.o
+ .bss           0x0000000000000000        0x0 build/tis_itsybitsy/selfmain.o
+ .text          0x0000000000000000        0x0 build/tis_itsybitsy/selfdata.o
+ .data          0x0000000000000000        0x0 build/tis_itsybitsy/selfdata.o
+ .bss           0x0000000000000000        0x0 build/tis_itsybitsy/selfdata.o
+ .text          0x0000000000000000        0x0 /Applications/Arduino-1.8.13.app/Contents/Java/portable/packages/adafruit/tools/arm-none-eabi-gcc/9-2019q4/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+ .data          0x0000000000000000        0x0 /Applications/Arduino-1.8.13.app/Contents/Java/portable/packages/adafruit/tools/arm-none-eabi-gcc/9-2019q4/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x0000000000000000        0x0 /Applications/Arduino-1.8.13.app/Contents/Java/portable/packages/adafruit/tools/arm-none-eabi-gcc/9-2019q4/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x0000000000002000 0x0000000000020000 xr
+ram              0x0000000020000000 0x0000000000008000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD build/tis_itsybitsy/flash_samd21.o
+LOAD build/tis_itsybitsy/init_samd21.o
+LOAD build/tis_itsybitsy/startup_samd21.o
+LOAD build/tis_itsybitsy/usart_sam_ba.o
+LOAD build/tis_itsybitsy/screen.o
+LOAD build/tis_itsybitsy/images.o
+LOAD build/tis_itsybitsy/utils.o
+LOAD build/tis_itsybitsy/selfmain.o
+LOAD build/tis_itsybitsy/selfdata.o
+START GROUP
+LOAD /Applications/Arduino-1.8.13.app/Contents/Java/portable/packages/adafruit/tools/arm-none-eabi-gcc/9-2019q4/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a
+LOAD /Applications/Arduino-1.8.13.app/Contents/Java/portable/packages/adafruit/tools/arm-none-eabi-gcc/9-2019q4/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a
+LOAD /Applications/Arduino-1.8.13.app/Contents/Java/portable/packages/adafruit/tools/arm-none-eabi-gcc/9-2019q4/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a
+END GROUP
+START GROUP
+LOAD /Applications/Arduino-1.8.13.app/Contents/Java/portable/packages/adafruit/tools/arm-none-eabi-gcc/9-2019q4/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a
+LOAD /Applications/Arduino-1.8.13.app/Contents/Java/portable/packages/adafruit/tools/arm-none-eabi-gcc/9-2019q4/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a
+LOAD /Applications/Arduino-1.8.13.app/Contents/Java/portable/packages/adafruit/tools/arm-none-eabi-gcc/9-2019q4/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a
+END GROUP
+START GROUP
+LOAD /Applications/Arduino-1.8.13.app/Contents/Java/portable/packages/adafruit/tools/arm-none-eabi-gcc/9-2019q4/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a
+LOAD /Applications/Arduino-1.8.13.app/Contents/Java/portable/packages/adafruit/tools/arm-none-eabi-gcc/9-2019q4/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a
+LOAD /Applications/Arduino-1.8.13.app/Contents/Java/portable/packages/adafruit/tools/arm-none-eabi-gcc/9-2019q4/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a
+END GROUP
+                0x0000000000002000                STACK_SIZE = DEFINED (STACK_SIZE)?STACK_SIZE:DEFINED (__stack_size__)?__stack_size__:0x2000
+
+.text           0x0000000000002000     0x25a8
+                0x0000000000002000                . = ALIGN (0x4)
+                0x0000000000002000                _sfixed = .
+ *(.vectors .vectors.*)
+ .vectors       0x0000000000002000       0xb4 build/tis_itsybitsy/startup_samd21.o
+                0x0000000000002000                exception_table
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text.flash_erase_row
+                0x00000000000020b4       0x28 build/tis_itsybitsy/flash_samd21.o
+                0x00000000000020b4                flash_erase_row
+ .text.flash_write_words
+                0x00000000000020dc       0x54 build/tis_itsybitsy/flash_samd21.o
+                0x00000000000020dc                flash_write_words
+ .text.flash_write_row
+                0x0000000000002130       0x2e build/tis_itsybitsy/flash_samd21.o
+                0x0000000000002130                flash_write_row
+ *fill*         0x000000000000215e        0x2 
+ .text.dfll_sync
+                0x0000000000002160       0x10 build/tis_itsybitsy/init_samd21.o
+ .text.system_init
+                0x0000000000002170       0xbc build/tis_itsybitsy/init_samd21.o
+                0x0000000000002170                system_init
+ .text.SysTick_Handler
+                0x000000000000222c        0x8 build/tis_itsybitsy/init_samd21.o
+                0x000000000000222c                SysTick_Handler
+ .text.Dummy_Handler
+                0x0000000000002234        0x2 build/tis_itsybitsy/startup_samd21.o
+                0x0000000000002234                SYSCTRL_Handler
+                0x0000000000002234                AC_Handler
+                0x0000000000002234                PendSV_Handler
+                0x0000000000002234                NMI_Handler
+                0x0000000000002234                SERCOM1_Handler
+                0x0000000000002234                ADC_Handler
+                0x0000000000002234                TCC1_Handler
+                0x0000000000002234                SERCOM2_Handler
+                0x0000000000002234                TCC0_Handler
+                0x0000000000002234                RTC_Handler
+                0x0000000000002234                EIC_Handler
+                0x0000000000002234                WDT_Handler
+                0x0000000000002234                TC4_Handler
+                0x0000000000002234                USB_Handler
+                0x0000000000002234                TC3_Handler
+                0x0000000000002234                Dummy_Handler
+                0x0000000000002234                PM_Handler
+                0x0000000000002234                SERCOM5_Handler
+                0x0000000000002234                SVC_Handler
+                0x0000000000002234                TCC2_Handler
+                0x0000000000002234                EVSYS_Handler
+                0x0000000000002234                SERCOM3_Handler
+                0x0000000000002234                SERCOM4_Handler
+                0x0000000000002234                I2S_Handler
+                0x0000000000002234                NVMCTRL_Handler
+                0x0000000000002234                SERCOM0_Handler
+                0x0000000000002234                DAC_Handler
+                0x0000000000002234                PTC_Handler
+                0x0000000000002234                TC5_Handler
+                0x0000000000002234                DMAC_Handler
+ .text.HardFault_Handler
+                0x0000000000002236        0x2 build/tis_itsybitsy/startup_samd21.o
+                0x0000000000002236                HardFault_Handler
+ .text.Reset_Handler
+                0x0000000000002238       0xa8 build/tis_itsybitsy/startup_samd21.o
+                0x0000000000002238                Reset_Handler
+ .text.add_crc  0x00000000000022e0       0x58 build/tis_itsybitsy/usart_sam_ba.o
+                0x00000000000022e0                add_crc
+ .text.panic    0x0000000000002338        0x2 build/tis_itsybitsy/utils.o
+                0x0000000000002338                panic
+ *fill*         0x000000000000233a        0x2 
+ .text.resetIntoApp
+                0x000000000000233c       0x28 build/tis_itsybitsy/utils.o
+                0x000000000000233c                resetIntoApp
+ .text.resetIntoBootloader
+                0x0000000000002364       0x28 build/tis_itsybitsy/utils.o
+                0x0000000000002364                resetIntoBootloader
+ .text.led_tick
+                0x000000000000238c       0x88 build/tis_itsybitsy/utils.o
+                0x000000000000238c                led_tick
+ .text.led_init
+                0x0000000000002414       0x10 build/tis_itsybitsy/utils.o
+                0x0000000000002414                led_init
+ .text.nvmctrl_exec_cmd
+                0x0000000000002424       0x2c build/tis_itsybitsy/selfmain.o
+ .text.set_fuses_and_bootprot
+                0x0000000000002450       0x7c build/tis_itsybitsy/selfmain.o
+                0x0000000000002450                set_fuses_and_bootprot
+ .text.startup.main
+                0x00000000000024cc       0xb8 build/tis_itsybitsy/selfmain.o
+                0x00000000000024cc                main
+ .text.memcpy   0x0000000000002584       0x12 /Applications/Arduino-1.8.13.app/Contents/Java/portable/packages/adafruit/tools/arm-none-eabi-gcc/9-2019q4/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+                0x0000000000002584                memcpy
+ *(.glue_7t)
+ .glue_7t       0x0000000000002596        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x0000000000002596        0x0 linker stubs
+ *(.rodata .rodata* .gnu.linkonce.r.*)
+ *fill*         0x0000000000002596        0x2 
+ .rodata.bootloader
+                0x0000000000002598     0x2000 build/tis_itsybitsy/selfdata.o
+                0x0000000000002598                bootloader
+ .rodata.bootloader_crcs
+                0x0000000000004598       0x10 build/tis_itsybitsy/selfdata.o
+                0x0000000000004598                bootloader_crcs
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00000000000045a8                . = ALIGN (0x4)
+ *(.init)
+                0x00000000000045a8                . = ALIGN (0x4)
+                0x00000000000045a8                __preinit_array_start = .
+ *(.preinit_array)
+                0x00000000000045a8                __preinit_array_end = .
+                0x00000000000045a8                . = ALIGN (0x4)
+                0x00000000000045a8                __init_array_start = .
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+                0x00000000000045a8                __init_array_end = .
+                0x00000000000045a8                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *crtend.o(.ctors)
+                0x00000000000045a8                . = ALIGN (0x4)
+                0x00000000000045a8                _efixed = .
+                [!provide]                        PROVIDE (__exidx_start = .)
+
+.vfp11_veneer   0x00000000000045a8        0x0
+ .vfp11_veneer  0x00000000000045a8        0x0 linker stubs
+
+.v4_bx          0x00000000000045a8        0x0
+ .v4_bx         0x00000000000045a8        0x0 linker stubs
+
+.iplt           0x00000000000045a8        0x0
+ .iplt          0x00000000000045a8        0x0 build/tis_itsybitsy/flash_samd21.o
+
+.igot.plt       0x00000000000045a8        0x0
+ .igot.plt      0x00000000000045a8        0x0 build/tis_itsybitsy/flash_samd21.o
+
+.rel.dyn        0x00000000000045a8        0x0
+ .rel.iplt      0x00000000000045a8        0x0 build/tis_itsybitsy/flash_samd21.o
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                [!provide]                        PROVIDE (__exidx_end = .)
+                0x00000000000045a8                . = ALIGN (0x4)
+                0x00000000000045a8                _etext = .
+
+.relocate       0x0000000020000000        0x8 load address 0x00000000000045a8
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                _srelocate = .
+ *(.ramfunc .ramfunc.*)
+ *(.data .data.*)
+ .data.current_cpu_frequency_MHz
+                0x0000000020000000        0x4 build/tis_itsybitsy/init_samd21.o
+                0x0000000020000000                current_cpu_frequency_MHz
+ .data.led_tick_step
+                0x0000000020000004        0x1 build/tis_itsybitsy/utils.o
+                0x0000000020000004                led_tick_step
+ .data.limit    0x0000000020000005        0x1 build/tis_itsybitsy/utils.o
+                0x0000000020000008                . = ALIGN (0x4)
+ *fill*         0x0000000020000006        0x2 
+                0x0000000020000008                _erelocate = .
+
+.bss            0x0000000020000008      0x30c load address 0x00000000000045b0
+                0x0000000020000008                . = ALIGN (0x4)
+                0x0000000020000008                _sbss = .
+                0x0000000020000008                _szero = .
+ *(.bss .bss.*)
+ .bss.crcCache  0x0000000020000008      0x200 build/tis_itsybitsy/usart_sam_ba.o
+ .bss.led_tick_on
+                0x0000000020000208        0x1 build/tis_itsybitsy/utils.o
+                0x0000000020000208                led_tick_on
+ *fill*         0x0000000020000209        0x3 
+ .bss.now       0x000000002000020c        0x4 build/tis_itsybitsy/utils.o
+ .bss.signal_end
+                0x0000000020000210        0x4 build/tis_itsybitsy/utils.o
+ *(COMMON)
+ COMMON         0x0000000020000214      0x100 build/tis_itsybitsy/selfmain.o
+                0x0000000020000214                bootloader_page_buf
+                0x0000000020000314                . = ALIGN (0x4)
+                0x0000000020000314                _ebss = .
+                0x0000000020000314                _ezero = .
+
+.stack          0x0000000020000314     0x2004 load address 0x00000000000048bc
+                0x0000000020000318                . = ALIGN (0x8)
+ *fill*         0x0000000020000314        0x4 
+                0x0000000020000318                _sstack = .
+                0x0000000020002318                . = (. + STACK_SIZE)
+ *fill*         0x0000000020000318     0x2000 
+                0x0000000020002318                . = ALIGN (0x8)
+                0x0000000020002318                _estack = .
+                0x0000000020002318                . = ALIGN (0x4)
+                0x0000000020002318                _end = .
+OUTPUT(build/tis_itsybitsy/update-bootloader-tis_itsybitsy-3756966.elf elf32-littlearm)
+
+.debug_info     0x0000000000000000     0xe055
+ .debug_info    0x0000000000000000     0x10f5 build/tis_itsybitsy/flash_samd21.o
+ .debug_info    0x00000000000010f5     0x259d build/tis_itsybitsy/init_samd21.o
+ .debug_info    0x0000000000003692     0x3995 build/tis_itsybitsy/startup_samd21.o
+ .debug_info    0x0000000000007027     0x41fc build/tis_itsybitsy/usart_sam_ba.o
+ .debug_info    0x000000000000b223     0x13d1 build/tis_itsybitsy/utils.o
+ .debug_info    0x000000000000c5f4     0x1972 build/tis_itsybitsy/selfmain.o
+ .debug_info    0x000000000000df66       0xef build/tis_itsybitsy/selfdata.o
+
+.debug_abbrev   0x0000000000000000     0x171b
+ .debug_abbrev  0x0000000000000000      0x304 build/tis_itsybitsy/flash_samd21.o
+ .debug_abbrev  0x0000000000000304      0x3c0 build/tis_itsybitsy/init_samd21.o
+ .debug_abbrev  0x00000000000006c4      0x29e build/tis_itsybitsy/startup_samd21.o
+ .debug_abbrev  0x0000000000000962      0x510 build/tis_itsybitsy/usart_sam_ba.o
+ .debug_abbrev  0x0000000000000e72      0x3e3 build/tis_itsybitsy/utils.o
+ .debug_abbrev  0x0000000000001255      0x446 build/tis_itsybitsy/selfmain.o
+ .debug_abbrev  0x000000000000169b       0x80 build/tis_itsybitsy/selfdata.o
+
+.debug_loc      0x0000000000000000     0x1341
+ .debug_loc     0x0000000000000000      0x4a4 build/tis_itsybitsy/flash_samd21.o
+ .debug_loc     0x00000000000004a4       0x5a build/tis_itsybitsy/init_samd21.o
+ .debug_loc     0x00000000000004fe       0x5a build/tis_itsybitsy/startup_samd21.o
+ .debug_loc     0x0000000000000558      0xa19 build/tis_itsybitsy/usart_sam_ba.o
+ .debug_loc     0x0000000000000f71      0x1b1 build/tis_itsybitsy/utils.o
+ .debug_loc     0x0000000000001122      0x21f build/tis_itsybitsy/selfmain.o
+
+.debug_aranges  0x0000000000000000      0x1e0
+ .debug_aranges
+                0x0000000000000000       0x48 build/tis_itsybitsy/flash_samd21.o
+ .debug_aranges
+                0x0000000000000048       0x30 build/tis_itsybitsy/init_samd21.o
+ .debug_aranges
+                0x0000000000000078       0x30 build/tis_itsybitsy/startup_samd21.o
+ .debug_aranges
+                0x00000000000000a8       0x88 build/tis_itsybitsy/usart_sam_ba.o
+ .debug_aranges
+                0x0000000000000130       0x68 build/tis_itsybitsy/utils.o
+ .debug_aranges
+                0x0000000000000198       0x30 build/tis_itsybitsy/selfmain.o
+ .debug_aranges
+                0x00000000000001c8       0x18 build/tis_itsybitsy/selfdata.o
+
+.debug_ranges   0x0000000000000000      0x2a0
+ .debug_ranges  0x0000000000000000       0xa8 build/tis_itsybitsy/flash_samd21.o
+ .debug_ranges  0x00000000000000a8       0x40 build/tis_itsybitsy/init_samd21.o
+ .debug_ranges  0x00000000000000e8       0x20 build/tis_itsybitsy/startup_samd21.o
+ .debug_ranges  0x0000000000000108       0xb0 build/tis_itsybitsy/usart_sam_ba.o
+ .debug_ranges  0x00000000000001b8       0x90 build/tis_itsybitsy/utils.o
+ .debug_ranges  0x0000000000000248       0x58 build/tis_itsybitsy/selfmain.o
+
+.debug_line     0x0000000000000000     0x24bc
+ .debug_line    0x0000000000000000      0x58f build/tis_itsybitsy/flash_samd21.o
+ .debug_line    0x000000000000058f      0x47a build/tis_itsybitsy/init_samd21.o
+ .debug_line    0x0000000000000a09      0x331 build/tis_itsybitsy/startup_samd21.o
+ .debug_line    0x0000000000000d3a      0xa78 build/tis_itsybitsy/usart_sam_ba.o
+ .debug_line    0x00000000000017b2      0x602 build/tis_itsybitsy/utils.o
+ .debug_line    0x0000000000001db4      0x59a build/tis_itsybitsy/selfmain.o
+ .debug_line    0x000000000000234e      0x16e build/tis_itsybitsy/selfdata.o
+
+.debug_str      0x0000000000000000     0x2b7c
+ .debug_str     0x0000000000000000      0x795 build/tis_itsybitsy/flash_samd21.o
+                                        0x858 (size before relaxing)
+ .debug_str     0x0000000000000795      0x6e7 build/tis_itsybitsy/init_samd21.o
+                                        0xedb (size before relaxing)
+ .debug_str     0x0000000000000e7c      0xedd build/tis_itsybitsy/startup_samd21.o
+                                       0x1385 (size before relaxing)
+ .debug_str     0x0000000000001d59      0xc5c build/tis_itsybitsy/usart_sam_ba.o
+                                       0x1423 (size before relaxing)
+ .debug_str     0x00000000000029b5       0xc8 build/tis_itsybitsy/utils.o
+                                        0x8c9 (size before relaxing)
+ .debug_str     0x0000000000002a7d       0xe0 build/tis_itsybitsy/selfmain.o
+                                        0xab8 (size before relaxing)
+ .debug_str     0x0000000000002b5d       0x1f build/tis_itsybitsy/selfdata.o
+                                        0x205 (size before relaxing)
+
+.comment        0x0000000000000000       0x79
+ .comment       0x0000000000000000       0x79 build/tis_itsybitsy/flash_samd21.o
+                                         0x7a (size before relaxing)
+ .comment       0x0000000000000079       0x7a build/tis_itsybitsy/init_samd21.o
+ .comment       0x0000000000000079       0x7a build/tis_itsybitsy/startup_samd21.o
+ .comment       0x0000000000000079       0x7a build/tis_itsybitsy/usart_sam_ba.o
+ .comment       0x0000000000000079       0x7a build/tis_itsybitsy/utils.o
+ .comment       0x0000000000000079       0x7a build/tis_itsybitsy/selfmain.o
+ .comment       0x0000000000000079       0x7a build/tis_itsybitsy/selfdata.o
+
+.ARM.attributes
+                0x0000000000000000       0x2c
+ .ARM.attributes
+                0x0000000000000000       0x2c build/tis_itsybitsy/flash_samd21.o
+ .ARM.attributes
+                0x000000000000002c       0x2c build/tis_itsybitsy/init_samd21.o
+ .ARM.attributes
+                0x0000000000000058       0x2c build/tis_itsybitsy/startup_samd21.o
+ .ARM.attributes
+                0x0000000000000084       0x2c build/tis_itsybitsy/usart_sam_ba.o
+ .ARM.attributes
+                0x00000000000000b0       0x2c build/tis_itsybitsy/utils.o
+ .ARM.attributes
+                0x00000000000000dc       0x2c build/tis_itsybitsy/selfmain.o
+ .ARM.attributes
+                0x0000000000000108       0x32 build/tis_itsybitsy/selfdata.o
+ .ARM.attributes
+                0x000000000000013a       0x2c /Applications/Arduino-1.8.13.app/Contents/Java/portable/packages/adafruit/tools/arm-none-eabi-gcc/9-2019q4/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+
+.debug_frame    0x0000000000000000      0x434
+ .debug_frame   0x0000000000000000       0xb4 build/tis_itsybitsy/flash_samd21.o
+ .debug_frame   0x00000000000000b4       0x54 build/tis_itsybitsy/init_samd21.o
+ .debug_frame   0x0000000000000108       0x4c build/tis_itsybitsy/startup_samd21.o
+ .debug_frame   0x0000000000000154      0x188 build/tis_itsybitsy/usart_sam_ba.o
+ .debug_frame   0x00000000000002dc       0xcc build/tis_itsybitsy/utils.o
+ .debug_frame   0x00000000000003a8       0x64 build/tis_itsybitsy/selfmain.o
+ .debug_frame   0x000000000000040c       0x28 /Applications/Arduino-1.8.13.app/Contents/Java/portable/packages/adafruit/tools/arm-none-eabi-gcc/9-2019q4/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+
+Cross Reference Table
+
+Symbol                                            File
+AC_Handler                                        build/tis_itsybitsy/startup_samd21.o
+ADC_Handler                                       build/tis_itsybitsy/startup_samd21.o
+DAC_Handler                                       build/tis_itsybitsy/startup_samd21.o
+DMAC_Handler                                      build/tis_itsybitsy/startup_samd21.o
+Dummy_Handler                                     build/tis_itsybitsy/startup_samd21.o
+EIC_Handler                                       build/tis_itsybitsy/startup_samd21.o
+EVSYS_Handler                                     build/tis_itsybitsy/startup_samd21.o
+HardFault_Handler                                 build/tis_itsybitsy/startup_samd21.o
+I2S_Handler                                       build/tis_itsybitsy/startup_samd21.o
+NMI_Handler                                       build/tis_itsybitsy/startup_samd21.o
+NVMCTRL_Handler                                   build/tis_itsybitsy/startup_samd21.o
+PM_Handler                                        build/tis_itsybitsy/startup_samd21.o
+PTC_Handler                                       build/tis_itsybitsy/startup_samd21.o
+PendSV_Handler                                    build/tis_itsybitsy/startup_samd21.o
+RGBLED_set_color                                  build/tis_itsybitsy/utils.o
+RTC_Handler                                       build/tis_itsybitsy/startup_samd21.o
+Reset_Handler                                     build/tis_itsybitsy/startup_samd21.o
+SERCOM0_Handler                                   build/tis_itsybitsy/startup_samd21.o
+SERCOM1_Handler                                   build/tis_itsybitsy/startup_samd21.o
+SERCOM2_Handler                                   build/tis_itsybitsy/startup_samd21.o
+SERCOM3_Handler                                   build/tis_itsybitsy/startup_samd21.o
+SERCOM4_Handler                                   build/tis_itsybitsy/startup_samd21.o
+SERCOM5_Handler                                   build/tis_itsybitsy/startup_samd21.o
+SVC_Handler                                       build/tis_itsybitsy/startup_samd21.o
+SYSCTRL_Handler                                   build/tis_itsybitsy/startup_samd21.o
+SysTick_Handler                                   build/tis_itsybitsy/init_samd21.o
+TC3_Handler                                       build/tis_itsybitsy/startup_samd21.o
+TC4_Handler                                       build/tis_itsybitsy/startup_samd21.o
+TC5_Handler                                       build/tis_itsybitsy/startup_samd21.o
+TCC0_Handler                                      build/tis_itsybitsy/startup_samd21.o
+TCC1_Handler                                      build/tis_itsybitsy/startup_samd21.o
+TCC2_Handler                                      build/tis_itsybitsy/startup_samd21.o
+USB_Handler                                       build/tis_itsybitsy/startup_samd21.o
+WDT_Handler                                       build/tis_itsybitsy/startup_samd21.o
+_erelocate                                        build/tis_itsybitsy/startup_samd21.o
+_estack                                           build/tis_itsybitsy/startup_samd21.o
+_etext                                            build/tis_itsybitsy/startup_samd21.o
+_ezero                                            build/tis_itsybitsy/startup_samd21.o
+_sfixed                                           build/tis_itsybitsy/startup_samd21.o
+_srelocate                                        build/tis_itsybitsy/startup_samd21.o
+_szero                                            build/tis_itsybitsy/startup_samd21.o
+add_crc                                           build/tis_itsybitsy/usart_sam_ba.o
+                                                  build/tis_itsybitsy/selfmain.o
+arrowLogo                                         build/tis_itsybitsy/images.o
+b_sharp_received                                  build/tis_itsybitsy/usart_sam_ba.o
+bootloader                                        build/tis_itsybitsy/selfdata.o
+                                                  build/tis_itsybitsy/selfmain.o
+bootloader_crcs                                   build/tis_itsybitsy/selfdata.o
+                                                  build/tis_itsybitsy/selfmain.o
+bootloader_page_buf                               build/tis_itsybitsy/selfmain.o
+buffer_rx_usart                                   build/tis_itsybitsy/usart_sam_ba.o
+buffer_tx_usart                                   build/tis_itsybitsy/usart_sam_ba.o
+copy_words                                        build/tis_itsybitsy/flash_samd21.o
+current_cpu_frequency_MHz                         build/tis_itsybitsy/init_samd21.o
+                                                  build/tis_itsybitsy/utils.o
+delay                                             build/tis_itsybitsy/utils.o
+error_timeout                                     build/tis_itsybitsy/usart_sam_ba.o
+exception_table                                   build/tis_itsybitsy/startup_samd21.o
+fileLogo                                          build/tis_itsybitsy/images.o
+flash_erase_row                                   build/tis_itsybitsy/flash_samd21.o
+flash_erase_to_end                                build/tis_itsybitsy/flash_samd21.o
+flash_write                                       build/tis_itsybitsy/flash_samd21.o
+flash_write_row                                   build/tis_itsybitsy/flash_samd21.o
+                                                  build/tis_itsybitsy/selfmain.o
+flash_write_words                                 build/tis_itsybitsy/flash_samd21.o
+                                                  build/tis_itsybitsy/selfmain.o
+font8                                             build/tis_itsybitsy/images.o
+g_interrupt_enabled                               build/tis_itsybitsy/init_samd21.o
+getPacket                                         build/tis_itsybitsy/usart_sam_ba.o
+idx_rx_read                                       build/tis_itsybitsy/usart_sam_ba.o
+idx_rx_write                                      build/tis_itsybitsy/usart_sam_ba.o
+idx_tx_read                                       build/tis_itsybitsy/usart_sam_ba.o
+idx_tx_write                                      build/tis_itsybitsy/usart_sam_ba.o
+led_init                                          build/tis_itsybitsy/utils.o
+                                                  build/tis_itsybitsy/selfmain.o
+led_signal                                        build/tis_itsybitsy/utils.o
+led_tick                                          build/tis_itsybitsy/utils.o
+                                                  build/tis_itsybitsy/init_samd21.o
+led_tick_on                                       build/tis_itsybitsy/utils.o
+led_tick_step                                     build/tis_itsybitsy/utils.o
+main                                              build/tis_itsybitsy/selfmain.o
+                                                  build/tis_itsybitsy/startup_samd21.o
+memcpy                                            /Applications/Arduino-1.8.13.app/Contents/Java/portable/packages/adafruit/tools/arm-none-eabi-gcc/9-2019q4/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+                                                  build/tis_itsybitsy/selfmain.o
+mode_of_transfer                                  build/tis_itsybitsy/usart_sam_ba.o
+panic                                             build/tis_itsybitsy/utils.o
+                                                  build/tis_itsybitsy/selfmain.o
+pendriveLogo                                      build/tis_itsybitsy/images.o
+resetHorizon                                      build/tis_itsybitsy/utils.o
+resetIntoApp                                      build/tis_itsybitsy/utils.o
+                                                  build/tis_itsybitsy/selfmain.o
+resetIntoBootloader                               build/tis_itsybitsy/utils.o
+                                                  build/tis_itsybitsy/selfmain.o
+set_fuses_and_bootprot                            build/tis_itsybitsy/selfmain.o
+size_of_data                                      build/tis_itsybitsy/usart_sam_ba.o
+system_init                                       build/tis_itsybitsy/init_samd21.o
+                                                  build/tis_itsybitsy/selfmain.o
+timerHigh                                         build/tis_itsybitsy/utils.o
+timerTick                                         build/tis_itsybitsy/utils.o
+uart_basic_init                                   build/tis_itsybitsy/usart_sam_ba.o
+uart_disable                                      build/tis_itsybitsy/usart_sam_ba.o
+uart_get_sercom_index                             build/tis_itsybitsy/usart_sam_ba.o
+uart_read_byte                                    build/tis_itsybitsy/usart_sam_ba.o
+uart_write_byte                                   build/tis_itsybitsy/usart_sam_ba.o
+usart_close                                       build/tis_itsybitsy/usart_sam_ba.o
+usart_getc                                        build/tis_itsybitsy/usart_sam_ba.o
+usart_getdata                                     build/tis_itsybitsy/usart_sam_ba.o
+usart_getdata_xmd                                 build/tis_itsybitsy/usart_sam_ba.o
+usart_is_rx_ready                                 build/tis_itsybitsy/usart_sam_ba.o
+usart_open                                        build/tis_itsybitsy/usart_sam_ba.o
+usart_putc                                        build/tis_itsybitsy/usart_sam_ba.o
+usart_putdata                                     build/tis_itsybitsy/usart_sam_ba.o
+usart_putdata_xmd                                 build/tis_itsybitsy/usart_sam_ba.o
+usart_readc                                       build/tis_itsybitsy/usart_sam_ba.o
+usart_sharp_received                              build/tis_itsybitsy/usart_sam_ba.o
+writeNum                                          build/tis_itsybitsy/utils.o
