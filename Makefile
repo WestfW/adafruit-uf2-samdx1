@@ -1,7 +1,11 @@
 BOARD=zero
 -include Makefile.user
 include boards/$(BOARD)/board.mk
-CC=arm-none-eabi-gcc
+#CC=arm-none-eabi-gcc
+GCCROOT=/Applications/Arduino-1.8.13.app/Contents/Java/portable/packages/adafruit/tools/arm-none-eabi-gcc/9-2019q4/bin/
+#GCCROOT=/usr/local/gcc-arm-11.2-arm-none-eabi/bin/
+#GCCROOT=/usr/local/gcc-arm-none-eabi-10.3-2021.07/bin/
+CC=$(GCCROOT)/arm-none-eabi-gcc
 ifeq ($(CHIP_FAMILY), samd21)
 COMMON_FLAGS = -mthumb -mcpu=cortex-m0plus -Os -g -DSAMD21
 endif
@@ -116,6 +120,7 @@ run: burn wait logs
 BMP = $(shell ls -1 /dev/cu.usbmodem* | head -1)
 BMP_ARGS = --nx -ex "set mem inaccessible-by-default off" -ex "set confirm off" -ex "target extended-remote $(BMP)" -ex "mon tpwr enable" -ex "mon swdp_scan" -ex "attach 1"
 GDB = arm-none-eabi-gdb
+GDB = $(GCCROOT)arm-none-eabi-gdb
 
 bmp-flash: $(BUILD_PATH)/$(NAME).bin
 	@test "X$(BMP)" != "X"
@@ -159,12 +164,13 @@ dirs:
 	-@mkdir -p $(BUILD_PATH)
 
 $(EXECUTABLE): $(OBJECTS)
+	$(CC) --version
 	$(CC) -L$(BUILD_PATH) $(LDFLAGS) \
 		 -T$(LINKER_SCRIPT) \
 		 -Wl,-Map,$(BUILD_PATH)/$(NAME).map -o $(BUILD_PATH)/$(NAME).elf $(OBJECTS)
-	arm-none-eabi-objcopy -O binary $(BUILD_PATH)/$(NAME).elf $@
+	$(GCCROOT)arm-none-eabi-objcopy -O binary $(BUILD_PATH)/$(NAME).elf $@
 	@echo
-	-@arm-none-eabi-size $(BUILD_PATH)/$(NAME).elf | awk '{ s=$$1+$$2; print } END { print ""; print "Space left: " ($(BOOTLOADER_SIZE)-s) }'
+	-@$(GCCROOT)arm-none-eabi-size $(BUILD_PATH)/$(NAME).elf | awk '{ s=$$1+$$2; print } END { print ""; print "Space left: " ($(BOOTLOADER_SIZE)-s) }'
 	@echo
 
 $(BUILD_PATH)/uf2_version.h: Makefile
@@ -174,7 +180,7 @@ $(SELF_EXECUTABLE): $(SELF_OBJECTS)
 	$(CC) -L$(BUILD_PATH) $(LDFLAGS) \
 		 -T$(SELF_LINKER_SCRIPT) \
 		 -Wl,-Map,$(BUILD_PATH)/update-$(NAME).map -o $(BUILD_PATH)/update-$(NAME).elf $(SELF_OBJECTS)
-	arm-none-eabi-objcopy -O binary $(BUILD_PATH)/update-$(NAME).elf $(BUILD_PATH)/update-$(NAME).bin
+	$(GCCROOT)arm-none-eabi-objcopy -O binary $(BUILD_PATH)/update-$(NAME).elf $(BUILD_PATH)/update-$(NAME).bin
 	python3 lib/uf2/utils/uf2conv.py -b $(BOOTLOADER_SIZE) -c -o $@ $(BUILD_PATH)/update-$(NAME).bin
 
 $(BUILD_PATH)/%.o: src/%.c $(wildcard inc/*.h boards/*/*.h) $(BUILD_PATH)/uf2_version.h
@@ -191,13 +197,13 @@ clean:
 	rm -rf build
 
 gdb:
-	arm-none-eabi-gdb $(BUILD_PATH)/$(NAME).elf
+	$(GCCROOT)arm-none-eabi-gdb $(BUILD_PATH)/$(NAME).elf
 
 tui:
-	arm-none-eabi-gdb -tui $(BUILD_PATH)/$(NAME).elf
+	$(GCCROOT)arm-none-eabi-gdb -tui $(BUILD_PATH)/$(NAME).elf
 
 %.asmdump: %.o
-	arm-none-eabi-objdump -d $< > $@
+	$(GCCROOT)arm-none-eabi-objdump -d $< > $@
 
 applet0: $(BUILD_PATH)/flash.asmdump
 	node scripts/genapplet.js $< flash_write
